@@ -99,7 +99,7 @@
             <url>https://repo.spring.io/libs-release</url>
         </pluginRepository>
     </pluginRepositories>
-  <!-- 
+  
     <dependencyManagement>
     	<dependencies>
     		<dependency>
@@ -114,5 +114,9 @@
     		</dependency>
     	</dependencies>
     </dependencyManagement>
-     -->
+    
 </project>
+
+
+
+
