@@ -17,3 +17,14 @@
         rslt.setBasename("messages");
         return rslt;
     }
+
+
+    @Autowired
+    private MessageSource messageSource;
+    
+    @GetMapping("/interceptor")
+    public List<ParagraphElement> getInterceptor() throws Exception {
+        System.out.println("######  "+ messageSource.getMessage("hello", null, Locale.FRENCH));
+        
+        return null;
+    }
